@@ -12,8 +12,8 @@ UCLASS()
 class GALAXYWAR_API APoolableActor : public AActor
 {
 	GENERATED_BODY()
-	
-public:	
+
+public:
 	// Sets default values for this actor's properties
 	APoolableActor();
 
@@ -22,17 +22,17 @@ protected:
 	virtual void BeginPlay() override;
 
 	UPROPERTY()
-	uint32 bIsActorEnabled;
+		uint32 bIsActorEnabled;
 
 	APoolMaster * PMaster;
 
-public:	
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	virtual void Init(APoolMaster * poolMaster, bool bDisable);
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
-	void ResetActor();
+		void ResetActor();
 	virtual void ResetActor_Implementation();
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
 		void DisableActor();

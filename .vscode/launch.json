@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "GalaxyWar (Debug)",
+			"request": "launch",
+			"preLaunchTask": "GalaxyWar Win64 Debug Build",
+			"program": "E:\\Projects\\Unreal\\GalaxyWar 4.21\\Binaries\\Win64\\GalaxyWar-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "D:\\EpicGames\\UE_4.21",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGames\\UE_4.21\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "GalaxyWar (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "GalaxyWar Win64 DebugGame Build",
+			"program": "E:\\Projects\\Unreal\\GalaxyWar 4.21\\Binaries\\Win64\\GalaxyWar-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "D:\\EpicGames\\UE_4.21",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGames\\UE_4.21\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "GalaxyWar (Development)",
+			"request": "launch",
+			"preLaunchTask": "GalaxyWar Win64 Development Build",
+			"program": "E:\\Projects\\Unreal\\GalaxyWar 4.21\\Binaries\\Win64\\GalaxyWar.exe",
+			"args": [
+			],
+			"cwd": "D:\\EpicGames\\UE_4.21",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGames\\UE_4.21\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "GalaxyWar (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "GalaxyWar Win64 Shipping Build",
+			"program": "E:\\Projects\\Unreal\\GalaxyWar 4.21\\Binaries\\Win64\\GalaxyWar-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "D:\\EpicGames\\UE_4.21",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGames\\UE_4.21\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "GalaxyWar (Test)",
+			"request": "launch",
+			"preLaunchTask": "GalaxyWar Win64 Test Build",
+			"program": "E:\\Projects\\Unreal\\GalaxyWar 4.21\\Binaries\\Win64\\GalaxyWar-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "D:\\EpicGames\\UE_4.21",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGames\\UE_4.21\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "GalaxyWarEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "GalaxyWarEditor Win64 Debug Build",
+			"program": "D:\\EpicGames\\UE_4.21\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"E:\\Projects\\Unreal\\GalaxyWar 4.21\\GalaxyWar.uproject"
+			],
+			"cwd": "D:\\EpicGames\\UE_4.21",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGames\\UE_4.21\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "GalaxyWarEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "GalaxyWarEditor Win64 DebugGame Build",
+			"program": "D:\\EpicGames\\UE_4.21\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"E:\\Projects\\Unreal\\GalaxyWar 4.21\\GalaxyWar.uproject"
+			],
+			"cwd": "D:\\EpicGames\\UE_4.21",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGames\\UE_4.21\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "GalaxyWarEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "GalaxyWarEditor Win64 Development Build",
+			"program": "D:\\EpicGames\\UE_4.21\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"E:\\Projects\\Unreal\\GalaxyWar 4.21\\GalaxyWar.uproject"
+			],
+			"cwd": "D:\\EpicGames\\UE_4.21",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGames\\UE_4.21\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "D:\\EpicGames\\UE_4.21\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"E:\\Projects\\Unreal\\GalaxyWar 4.21\\GalaxyWar.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "D:\\EpicGames\\UE_4.21"
+		}
+	]
+}

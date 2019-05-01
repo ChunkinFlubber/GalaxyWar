@@ -1,0 +1,10 @@
+{
+	"files.exclude": {
+		"E:/Projects/Unreal/GalaxyWar 4.21/.git": true,
+		"E:/Projects/Unreal/GalaxyWar 4.21/.vs": true,
+		"E:/Projects/Unreal/GalaxyWar 4.21/.vscode": true,
+		"E:/Projects/Unreal/GalaxyWar 4.21/Content": true,
+		"E:/Projects/Unreal/GalaxyWar 4.21/Intermediate": true,
+		"E:/Projects/Unreal/GalaxyWar 4.21/Saved": true
+	}
+}
